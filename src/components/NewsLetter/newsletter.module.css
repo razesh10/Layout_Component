@@ -1,0 +1,33 @@
+.newsLetterContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.newsLetterForm {
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid darkgrey;
+  width: fit-content;
+  height: 40px;
+}
+
+.newsLetterForm input {
+  padding: 0 10px;
+  border: none;
+}
+.subscribeBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  background-color: darkgrey;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.subscribeBtn Image {
+  fill: black;
+}

@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --height-nav: 50px;
+  --width-sidebar: 150px;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+}

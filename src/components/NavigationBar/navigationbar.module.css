@@ -1,0 +1,95 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkblue;
+  align-items: center;
+  padding: 10px 50px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: var(--height-nav);
+  color: white;
+}
+
+.navItems {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.navItems li:hover {
+  cursor: pointer;
+}
+
+.hamButton {
+  width: 25px;
+  height: 25px;
+  display: none;
+}
+
+.navItemSmallContainer {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  background-color: darkcyan;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  display: none;
+}
+
+.navItemSmall {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+
+.navItemSmall li:hover {
+  cursor: pointer;
+}
+
+.contactButton {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: white;
+  color: darkblue;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.contactButton:hover {
+  border: 1px solid gray;
+  background-color: lightblue;
+}
+
+.logo Image :hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .navItems {
+    display: none;
+  }
+  .hamButton {
+    display: block;
+  }
+  .ShowNavItemSmallContainer {
+    display: block;
+  }
+  .ClosedNavItemSmallContainer {
+    display: none;
+  }
+  .navbarCenter {
+    justify-content: right;
+  }
+  .contactButton {
+    display: none;
+  }
+}

@@ -1,0 +1,60 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+  background-color: #1d1d1d;
+  color: white;
+}
+.FooterCol1Container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex-basis: 1;
+}
+
+.footerLink {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footerLinks {
+  list-style: none;
+  gap: 10px;
+}
+
+.footerLink ul li {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footerLink ul li:hover {
+  cursor: pointer;
+}
+
+.columns {
+  display: flex;
+  gap: 100px;
+  flex-basis: 2;
+}
+.divider {
+  width: 30px;
+  height: 1px;
+  background-color: white;
+}
+
+.footerTitle {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
